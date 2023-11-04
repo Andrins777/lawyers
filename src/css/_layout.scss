@@ -1,0 +1,24 @@
+header {
+  
+}
+.header__top {
+  background-color: black;
+  height: 52px;
+}
+
+
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: content-box;
+}
+
+.contacts {
+  display: flex;
+}
+
+.flex-aic-sb {
+  justify-content: space-between;
+  align-items: center;
+}

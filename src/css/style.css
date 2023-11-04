@@ -1,0 +1,204 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito Sans";
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.header__top {
+  background-color: black;
+  height: 52px;
+}
+
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: content-box;
+}
+
+.contacts {
+  display: flex;
+}
+
+.flex-aic-sb {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contacts__icon {
+  margin-right: 8px;
+}
+.contacts__left {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+}
+.contacts__phone {
+  margin-right: 28px;
+  color: white;
+}
+.contacts__mail {
+  color: white;
+}
+
+.header__bottom {
+  position: absolute;
+  width: 100%;
+  background-color: rgba(1, 1, 1, 0.76);
+}
+
+.pravo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.pravo__left {
+  display: flex;
+  width: 312px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: -10px;
+}
+.pravo__h1 {
+  color: #4f8ff0;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 150%;
+}
+.pravo__p {
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 150%; /* 30px */
+  text-transform: lowercase;
+}
+.pravo__right {
+  color: #fff;
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 32px;
+}
+.pravo__title:hover {
+  color: #4F8FF0;
+}
+
+.main {
+  background-image: url(../img/фон.jpg);
+  flex-wrap: wrap;
+  width: 1920px;
+  height: 820px;
+}
+
+.services {
+  margin-top: 262px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+.services__complex {
+  color: #fff;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%;
+  line-height: 150%; /* 45px */
+  text-transform: uppercase;
+}
+.services__ur {
+  color: #4f8ff0;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  text-transform: uppercase;
+}
+.services__text {
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.button {
+  border: 2px solid #4f8ff0;
+  background: #4f8ff0;
+  display: inline-flex;
+  margin-top: 48px;
+  padding: 16px 24px;
+  gap: 10px;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+
+.servis {
+  width: 1920px;
+  height: 960px;
+  background: #f7f7f7;
+}
+
+.serv {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+.serv__serv {
+  margin-top: 80px;
+  margin-bottom: 10px;
+  color: #222;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%;
+  text-transform: uppercase;
+}
+.serv__stand {
+  background: #4f8ff0;
+  width: 50px;
+  height: 3px;
+  margin-bottom: 24px;
+}
+.serv__txt {
+  margin-bottom: 48px;
+  color: #222;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+button {
+  margin-top: 16px;
+  color: #4f8ff0;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  border: medium none;
+  background: transparent;
+  background-color: transparent;
+}/*# sourceMappingURL=style.css.map */
