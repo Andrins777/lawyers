@@ -66,4 +66,22 @@
   }
 }
 
+@media screen and (max-width:750px) {
+  .contacts{
+    &__phone{
+      color: #4f8ff0;
+    }
+  }
+}
 
+
+
+
+
+@media screen and (max-width:350px) {
+  .contacts{
+    &__phone{
+      display: none;
+    }
+  }
+}

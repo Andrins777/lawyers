@@ -1,4 +1,5 @@
 .servis {
+  display: flex;
   width: 1920px;
   height: 960px;
   background: #f7f7f7;
@@ -37,8 +38,41 @@
     font-weight: 400;
     line-height: 120%;
   }
+}
 
-  &__block
+.blocks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  
+
+
+  &__second {
+    background-color: #fff;
+    display: flex;
+    width: 424px;
+    height: 250px;
+    padding: 50px 32px;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    flex-shrink: 0;
+  }
+
+  &__text3 {
+    align-self: stretch;
+    color:#222;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+  }  
+}
+
+.blocks__button {
+  display: block;
+  margin: 48px auto 80px;
 }
 
 

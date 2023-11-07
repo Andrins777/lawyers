@@ -98,6 +98,16 @@ li {
   color: #4F8FF0;
 }
 
+@media screen and (max-width: 750px) {
+  .contacts__phone {
+    color: #4f8ff0;
+  }
+}
+@media screen and (max-width: 350px) {
+  .contacts__phone {
+    display: none;
+  }
+}
 .main {
   background-image: url(../img/фон.jpg);
   flex-wrap: wrap;
@@ -154,7 +164,34 @@ li {
   text-transform: uppercase;
 }
 
+.urcompanyserv {
+  width: 1920px;
+}
+
+.urcompany__list2 {
+  color: var(--colors-black-text, #222);
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%; /* 42px */
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.urcompany__list4 {
+  width: 720px;
+  color: #222;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.blue {
+  color: #4f8ff0;
+}
+
 .servis {
+  display: flex;
   width: 1920px;
   height: 960px;
   background: #f7f7f7;
@@ -189,6 +226,37 @@ li {
   font-style: normal;
   font-weight: 400;
   line-height: 120%;
+}
+
+.blocks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.blocks__second {
+  background-color: #fff;
+  display: flex;
+  width: 424px;
+  height: 250px;
+  padding: 50px 32px;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  flex-shrink: 0;
+}
+.blocks__text3 {
+  align-self: stretch;
+  color: #222;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.blocks__button {
+  display: block;
+  margin: 48px auto 80px;
 }
 
 button {

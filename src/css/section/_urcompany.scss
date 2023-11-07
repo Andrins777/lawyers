@@ -1,0 +1,28 @@
+.urcompanyserv {
+  width: 1920px;
+}
+
+.urcompany {
+  &__list2 {
+    color: var(--colors-black-text, #222);
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%; /* 42px */
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+
+  &__list4 {
+    width: 720px;
+    color: #222;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+  }
+}
+
+.blue {
+  color: #4f8ff0;
+}
