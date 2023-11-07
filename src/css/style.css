@@ -67,6 +67,8 @@ li {
   align-items: center;
 }
 .pravo__left {
+  margin-top: 22px;
+  margin-bottom: 28px;
   display: flex;
   width: 312px;
   flex-direction: column;
@@ -109,9 +111,8 @@ li {
   }
 }
 .main {
-  background-image: url(../img/фон.jpg);
+  background: lightgray url("../img/фон.jpg") no-repeat center/cover;
   flex-wrap: wrap;
-  width: 1920px;
   height: 820px;
 }
 
@@ -164,35 +165,8 @@ li {
   text-transform: uppercase;
 }
 
-.urcompanyserv {
-  width: 1920px;
-}
-
-.urcompany__list2 {
-  color: var(--colors-black-text, #222);
-  font-size: 28px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 150%; /* 42px */
-  text-transform: uppercase;
-  margin-bottom: 10px;
-}
-.urcompany__list4 {
-  width: 720px;
-  color: #222;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 150%;
-}
-
-.blue {
-  color: #4f8ff0;
-}
-
 .servis {
   display: flex;
-  width: 1920px;
   height: 960px;
   background: #f7f7f7;
 }
@@ -257,6 +231,71 @@ li {
 .blocks__button {
   display: block;
   margin: 48px auto 80px;
+}
+
+.urcompany {
+  display: flex;
+}
+.urcompany__rod {
+  margin-right: 50px;
+}
+.urcompany__list2 {
+  margin-top: 80px;
+  margin-bottom: 32px;
+  color: #222;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%; /* 42px */
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.urcompany__list4 {
+  width: 720px;
+  color: #222;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.urcompany__list5 {
+  margin-bottom: 15px;
+}
+.urcompany__img {
+  margin-top: 80px;
+}
+.urcompany__str {
+  display: block;
+}
+.urcompany__urbut {
+  display: flex;
+  align-items: flex-start;
+  width: 720px;
+  height: 49px;
+  margin-bottom: 80px;
+}
+.urcompany__but3 {
+  margin: 0;
+  margin-right: 24px;
+}
+.urcompany__but4 {
+  margin: 0;
+  display: flex;
+  padding: 16px 24px;
+  align-items: flex-start;
+  border: 2px solid #e6e6e6;
+  background: #e6e6e6;
+  color: #222;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+
+.blue {
+  color: #4f8ff0;
 }
 
 button {

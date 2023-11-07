@@ -1,7 +1,8 @@
 .main {
-  background-image: url(../img/фон.jpg);
+
+  background: lightgray url("../img/фон.jpg") no-repeat center/cover;
   flex-wrap: wrap;
-  width: 1920px;
+
   height: 820px;
 }
 
